@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 4
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:leather_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:leather_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:leather_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:leather_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "room9:equation"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "room9:morb"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "room9:idol"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "room9:soiju"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "room9:it_starts_with"
+        }
+      ]
+    }
+  ]
+}

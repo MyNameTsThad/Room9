@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "room9",
+  "version": "${version}",
+  "name": "Room9",
+  "description": "A mod made for  my private SMP with friends. Has terrible jokes.",
+  "authors": [
+    "IWant2TryHard"
+  ],
+  "contact": {
+    "website": "thaddev.com",
+    "repo": "https://github.com/MyNameTsThad/Room9"
+  },
+  "license": "MIT",
+  "icon": "assets/room9/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.thaddev.room9.client.Room9Client"
+    ],
+    "main": [
+      "com.thaddev.room9.Room9"
+    ]
+  },
+  "mixins": [
+    "room9.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19"
+  }
+}
