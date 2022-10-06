@@ -1,7 +1,9 @@
 package com.thaddev.room9;
 
+import com.thaddev.room9.mechanics.inits.BlockInit;
+import com.thaddev.room9.mechanics.inits.EntityInit;
 import com.thaddev.room9.mechanics.inits.ItemInit;
-import com.thaddev.room9.mechanics.inits.StructureInit;
+import com.thaddev.room9.mechanics.inits.SoundInit;
 import net.fabricmc.api.ModInitializer;
 
 import java.util.logging.Logger;
@@ -20,6 +22,8 @@ public class Room9 implements ModInitializer {
         Room9.LOGGER.info("Initializing Room9 version " + VERSION);
 
         ItemInit.registerItems();
-        StructureInit.registerStructureFeatures();
+        BlockInit.registerBlocks();
+        SoundInit.registerSounds();
+        EntityInit.registerEntities();
     }
 }

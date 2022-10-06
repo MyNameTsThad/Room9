@@ -1,0 +1,29 @@
+{
+  "subtitles.room9.soiju": "soiju",
+  "subtitles.room9.dew_ambient_1": "dew",
+  "subtitles.room9.dew_ambient_2": "dew",
+  "subtitles.room9.dew_ambient_3": "dew",
+  "subtitles.room9.dew_ambient_4": "dew",
+  "subtitles.room9.dew_ambient_5": "dew",
+  "subtitles.room9.dew_ambient_6": "dew",
+  "subtitles.room9.dew_ambient_7": "dew",
+  "subtitles.room9.dew_ambient_8": "dew",
+  "subtitles.room9.dew_ambient_9": "dew",
+  "subtitles.room9.dew_ambient_long": "dew",
+  "subtitles.room9.dew_angry": "dew",
+  "subtitles.room9.dew_hurt": "dew",
+  "subtitles.room9.dew_death": "dew",
+
+  "entity.room9.dew": "dew",
+
+  "item.room9.equation": "equation",
+  "item.room9.morb": "morb",
+  "item.room9.idol": "idol",
+  "item.room9.soiju": "soiju",
+  "item.room9.it_starts_with": "it starts with",
+
+  "block.room9.morb": "morb",
+  "block.room9.idol": "idol",
+  "block.room9.soiju": "soiju",
+  "block.room9.it_starts_with": "it starts with"
+}

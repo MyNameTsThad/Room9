@@ -24,6 +24,6 @@ public class ItemInit {
 
 
     public static void registerItems() {
-        Room9.LOGGER.info("Registering Items for " + Room9.MODID + " (1/1)");
+        Room9.LOGGER.info("Registering Items for " + Room9.MODID + " (1/4)");
     }
 }

@@ -1,0 +1,104 @@
+{
+  "soiju": {
+    "subtitle": "subtitles.room9.soiju",
+    "sounds": [
+      "room9:soiju"
+    ]
+  },
+  "morb": {
+    "subtitle": "subtitles.room9.morb",
+    "sounds": [
+      "room9:morb"
+    ]
+  },
+  "it_starts_with": {
+    "subtitle": "subtitles.room9.it_starts_with",
+    "sounds": [
+      "room9:it_starts_with"
+    ]
+  },
+  "idol": {
+    "subtitle": "subtitles.room9.idol",
+    "sounds": [
+      "room9:idol"
+    ]
+  },
+  "dew_ambient_1": {
+    "subtitle": "subtitles.room9.dew_ambient_1",
+    "sounds": [
+      "room9:dew_ambient_1"
+    ]
+  },
+  "dew_ambient_2": {
+    "subtitle": "subtitles.room9.dew_ambient_2",
+    "sounds": [
+      "room9:dew_ambient_2"
+    ]
+  },
+  "dew_ambient_3": {
+    "subtitle": "subtitles.room9.dew_ambient_3",
+    "sounds": [
+      "room9:dew_ambient_3"
+    ]
+  },
+  "dew_ambient_4": {
+    "subtitle": "subtitles.room9.dew_ambient_4",
+    "sounds": [
+      "room9:dew_ambient_4"
+    ]
+  },
+  "dew_ambient_5": {
+    "subtitle": "subtitles.room9.dew_ambient_5",
+    "sounds": [
+      "room9:dew_ambient_5"
+    ]
+  },
+  "dew_ambient_6": {
+    "subtitle": "subtitles.room9.dew_ambient_5",
+    "sounds": [
+      "room9:dew_ambient_5"
+    ]
+  },
+  "dew_ambient_7": {
+    "subtitle": "subtitles.room9.dew_ambient_7",
+    "sounds": [
+      "room9:dew_ambient_7"
+    ]
+  },
+  "dew_ambient_8": {
+    "subtitle": "subtitles.room9.dew_ambient_8",
+    "sounds": [
+      "room9:dew_ambient_8"
+    ]
+  },
+  "dew_ambient_9": {
+    "subtitle": "subtitles.room9.dew_ambient_9",
+    "sounds": [
+      "room9:dew_ambient_9"
+    ]
+  },
+  "dew_ambient_long": {
+    "subtitle": "subtitles.room9.dew_ambient_long",
+    "sounds": [
+      "room9:dew_ambient_long"
+    ]
+  },
+  "dew_angry": {
+    "subtitle": "subtitles.room9.dew_angry",
+    "sounds": [
+      "room9:dew_angry"
+    ]
+  },
+  "dew_hurt": {
+    "subtitle": "subtitles.room9.dew_hurt",
+    "sounds": [
+      "room9:dew_hurt"
+    ]
+  },
+  "dew_death": {
+    "subtitle": "subtitles.room9.dew_death",
+    "sounds": [
+      "room9:dew_death"
+    ]
+  }
+}
