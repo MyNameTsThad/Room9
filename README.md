@@ -6,7 +6,7 @@ TODO:
 - taser
 - banhammer
 - spinning fish
-- moai block
+- ~~moai block~~
 - ~~morb block~~
 - ~~it starts with block~~
 - ~~equation item (dropped from dew entity)~~

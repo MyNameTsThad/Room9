@@ -1,5 +1,9 @@
 {
   "subtitles.room9.soiju": "soiju",
+  "subtitles.room9.idol": "idol",
+  "subtitles.room9.morb": "morb",
+  "subtitles.room9.it_starts_with": "it starts with one thing i dont know why it doesnt even matter how hard you try",
+  "subtitles.room9.moai": "moai \uD83D\uDDFF",
   "subtitles.room9.dew_ambient_1": "dew",
   "subtitles.room9.dew_ambient_2": "dew",
   "subtitles.room9.dew_ambient_3": "dew",
@@ -20,10 +24,14 @@
   "item.room9.morb": "morb",
   "item.room9.idol": "idol",
   "item.room9.soiju": "soiju",
-  "item.room9.it_starts_with": "it starts with",
+  "item.room9.it_starts_with": "it starts with one thing i dont know why it doesnt even matter how hard you try",
+  "item.room9.moai": "moai \uD83D\uDDFF",
+  "item.room9.ban_hammer": "banhammer",
+  "item.room9.taser": "taser",
 
   "block.room9.morb": "morb",
   "block.room9.idol": "idol",
   "block.room9.soiju": "soiju",
-  "block.room9.it_starts_with": "it starts with"
+  "block.room9.it_starts_with": "it starts with one thing i dont know why it doesnt even matter how hard you try",
+  "block.room9.moai": "moai \uD83D\uDDFF"
 }

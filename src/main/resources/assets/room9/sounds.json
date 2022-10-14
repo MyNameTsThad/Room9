@@ -23,6 +23,12 @@
       "room9:idol"
     ]
   },
+  "moai": {
+    "subtitle": "subtitles.room9.moai",
+    "sounds": [
+      "room9:moai"
+    ]
+  },
   "dew_ambient_1": {
     "subtitle": "subtitles.room9.dew_ambient_1",
     "sounds": [

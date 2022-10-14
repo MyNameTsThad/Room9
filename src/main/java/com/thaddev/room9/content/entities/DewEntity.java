@@ -115,7 +115,7 @@ public class DewEntity extends TameableEntity implements Angerable {
             .add(EntityAttributes.GENERIC_MAX_HEALTH, WILD_MAX_HEALTH)
             .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 2.0)
             .add(EntityAttributes.GENERIC_KNOCKBACK_RESISTANCE, 1)
-            .add(EntityAttributes.GENERIC_ATTACK_KNOCKBACK, 2);
+            .add(EntityAttributes.GENERIC_ATTACK_KNOCKBACK, 25);
     }
 
     @Override
@@ -223,6 +223,7 @@ public class DewEntity extends TameableEntity implements Angerable {
         if (bl) {
             this.applyDamageEffects(this, target);
         }
+        target.setVelocity(target.getVelocity().multiply(8));
         return bl;
     }
 

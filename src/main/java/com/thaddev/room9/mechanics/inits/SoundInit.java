@@ -12,6 +12,7 @@ public class SoundInit {
     public static final Identifier MORB_ID = new Identifier("room9:morb");
     public static final Identifier IDOL_ID = new Identifier("room9:idol");
     public static final Identifier IT_STARTS_WITH_ID = new Identifier("room9:it_starts_with");
+    public static final Identifier MOAI_ID = new Identifier("room9:moai");
 
     public static final Identifier DEW_AMBIENT_1_ID = new Identifier("room9:dew_ambient_1");
     public static final Identifier DEW_AMBIENT_2_ID = new Identifier("room9:dew_ambient_2");
@@ -31,6 +32,7 @@ public class SoundInit {
     public static SoundEvent MORB = new SoundEvent(MORB_ID);
     public static SoundEvent IDOL = new SoundEvent(IDOL_ID);
     public static SoundEvent IT_STARTS_WITH = new SoundEvent(IT_STARTS_WITH_ID);
+    public static SoundEvent MOAI = new SoundEvent(MOAI_ID);
 
     public static SoundEvent DEW_AMBIENT_1 = new SoundEvent(DEW_AMBIENT_1_ID);
     public static SoundEvent DEW_AMBIENT_2 = new SoundEvent(DEW_AMBIENT_2_ID);
@@ -50,6 +52,7 @@ public class SoundInit {
     public static BlockSoundGroup MORB_SOUNDS = new BlockSoundGroup(1.0f, 1.0f, MORB, MORB, MORB, MORB, MORB);
     public static BlockSoundGroup IDOL_SOUNDS = new BlockSoundGroup(1.0f, 1.0f, IDOL, IDOL, IDOL, IDOL, IDOL);
     public static BlockSoundGroup IT_STARTS_WITH_SOUNDS = new BlockSoundGroup(1.0f, 1.0f, IT_STARTS_WITH, IT_STARTS_WITH, IT_STARTS_WITH, IT_STARTS_WITH, IT_STARTS_WITH);
+    public static BlockSoundGroup MOAI_SOUNDS = new BlockSoundGroup(1.3f, 1f, MOAI, MOAI, MOAI, MOAI, MOAI);
 
     public static SoundEvent[] DEW_AMBIENT = new SoundEvent[] {
             DEW_AMBIENT_1,
@@ -67,6 +70,10 @@ public class SoundInit {
     public static void registerSounds() {
         Room9.LOGGER.info("Registering Sounds for " + Room9.MODID + " (3/4)");
         Registry.register(Registry.SOUND_EVENT, SOIJU_ID, SOIJU);
+        Registry.register(Registry.SOUND_EVENT, MORB_ID, MORB);
+        Registry.register(Registry.SOUND_EVENT, IDOL_ID, IDOL);
+        Registry.register(Registry.SOUND_EVENT, IT_STARTS_WITH_ID, IT_STARTS_WITH);
+        Registry.register(Registry.SOUND_EVENT, MOAI_ID, MOAI);
 
         Registry.register(Registry.SOUND_EVENT, DEW_AMBIENT_1_ID, DEW_AMBIENT_1);
         Registry.register(Registry.SOUND_EVENT, DEW_AMBIENT_2_ID, DEW_AMBIENT_2);

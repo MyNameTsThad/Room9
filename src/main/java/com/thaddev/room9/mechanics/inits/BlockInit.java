@@ -18,14 +18,14 @@ public class BlockInit {
             .requiresTool()
             .strength(1.5f, 6.0f)
             .sounds(SoundInit.MORB_SOUNDS)
-        ), ItemGroup.MISC);
+        ), ItemGroup.DECORATIONS);
 
     public static final Block IDOL = registerBlock("idol",
         new Block(FabricBlockSettings.of(Material.STONE)
             .requiresTool()
             .strength(1.5f, 6.0f)
             .sounds(SoundInit.IDOL_SOUNDS)
-        ), ItemGroup.MISC);
+        ), ItemGroup.DECORATIONS);
 
     public static final Block SOIJU = registerBlock("soiju",
         new Block(FabricBlockSettings.of(Material.STONE)
@@ -33,14 +33,21 @@ public class BlockInit {
             .strength(1.5f, 6.0f)
             .sounds(SoundInit.SOIJU_SOUNDS)
             .nonOpaque()
-        ), ItemGroup.MISC);
+        ), ItemGroup.DECORATIONS);
 
     public static final Block IT_STARTS_WITH = registerBlock("it_starts_with",
         new Block(FabricBlockSettings.of(Material.STONE)
             .requiresTool()
             .strength(1.5f, 6.0f)
             .sounds(SoundInit.IT_STARTS_WITH_SOUNDS)
-        ), ItemGroup.MISC);
+        ), ItemGroup.DECORATIONS);
+
+    public static final Block MOAI = registerBlock("moai",
+        new Block(FabricBlockSettings.of(Material.STONE)
+            .requiresTool()
+            .strength(3f, 12.0f)
+            .sounds(SoundInit.MOAI_SOUNDS)
+        ), ItemGroup.DECORATIONS);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
